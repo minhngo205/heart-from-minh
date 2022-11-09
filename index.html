@@ -1,60 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Heart From Minh</title>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> MINH IT </TITLE>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+  <link rel="stylesheet" href="style.css">
   <style>
-    html,
-    body {
-      height: 100%;
-      padding: 0;
-      margin: 0;
-      background: #000;
-    }
-
-    .container {
-      postion: absolute;
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-    }
-
-    canvas {
-      width: 100%;
-      height: 100%;
-      animation: zoom 2s infinite ease-in-out;
-    }
-
-    @keyframes zoom {
-      0% {
-        transform: scale(1);
-      }
-
-      50% {
-        transform: scale(1.2);
-      }
-
-      100% {
-        transform: scale(1);
-      }
-    }
-
-    .msg {
-      color: #fff;
-      text-align: center;
-      font-size: 20px;
-    }
+  html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.851);
+}
+canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
   </style>
-</head>
-
-<body>
-  <div class="container">
+ </HEAD>
+ <BODY>
+  <div class="box">
     <canvas id="pinkboard"></canvas>
   </div>
-  <script>
+<script>
     /*
     * Settings
     */
@@ -313,6 +284,5 @@
     })(document.getElementById("pinkboard"));
 
   </script>
-</body>
-
-</html>
+ </BODY>
+</HTML>
