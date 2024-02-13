@@ -24,6 +24,16 @@ body {
 	animation: animate 1.2s infinite;
 }
 
+#text {
+	color: #ea80b0;
+	font-family: "Nunito", sans-serif;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	animation: animate 1.2s infinite;
+}
+
 #pinkboard:before, #pinkboard:after {
 	content: '';
 	position: absolute;
